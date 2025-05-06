@@ -1,4 +1,19 @@
-# NYC Housing Complaint Analysis/ Goal
+### 🔧 How to Run This Project
+
+To run this project: 
+Clone the repo and navigate into the folder:
+git clone https://github.com/ss03k/nyc-housing-project.git
+cd nyc-housing-project
+
+2. Install the required Python packages:
+pip install pandas numpy sodapy
+
+3. Run the Python script:
+python nyc_housing_analysis.py
+
+The script will generate a file called `cleaned_data.csv` with the analysis results.
+# NYC Housing Complaint Analysis/ 
+Goal
 - This project analyzes New York City's 311 housing complains using open data from the NYC Open Data portal.
 - The goal of this project is to identify patterns in NYC housing complaints and use data to support stricter landlord accountability policies. By highlighting issues like heating and plumbing failures, the goal is to drive data-informed solutions that improve tenant living condition and reduce delays in addressing violations.
 # What it Does 
