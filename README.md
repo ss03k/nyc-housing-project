@@ -1,4 +1,4 @@
-### 🔧 How to Run This Project
+# How to Run This Project
 
 To run this project: 
 Clone the repo and navigate into the folder:
