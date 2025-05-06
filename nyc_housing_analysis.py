@@ -2,10 +2,10 @@ from sodapy import Socrata
 import pandas as pd
 import numpy as np
 
-client = Socrata("data.cityofnewyork.us", "KSH9p9FmEU0UEiS7RA4C1D2qR")
+client = Socrata("data.cityofnewyork.us",None)
 
-query = "received_date >= '2023-01-01T00:00:00' AND received_date <= 
-'2024-12-12T23:59:59'"
+query = "received_date >= '2023-01-01T00:00:00' AND received_date <= '2024-12-12T23:59:59'"
+
 raw_data = client.get("ygpa-z7cr", where=query, limit=2000)
 
 df = pd.DataFrame.from_records(raw_data)
